@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+nav {
+    font-family: 'Mukta', sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    height: 65px;
+    font-weight: lighter;
+    background-color: black;
+}
+
+nav ul li {
+    padding: 0 12px;
+
+}
+
+.brand img {
+    width: 50px;
+    border-radius: 30px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-weight: 1.3rem;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 13px;
+    background-image: url(./backgroundimg.jpg);
+    background-size:cover;
+}
+
+.bottom {
+    display: flex;
+    background-color: black;
+    color: white;
+    position: sticky;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+h1{
+    color: black;
+}
+
+
+.songItem-container{
+    margin-top: 74px;
+}
+.songItems{
+    height: 60px;
+    display: flex;
+    background-color: black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songItems img{
+    width: 50px;
+    height: 50px;
+    margin: 0 23px;
+    border-radius: 80px;
+    /* border-radius: 30px; */
+}
+
+.timestamp{
+    margin: 0 23px
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo  {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./spotifylogo.png" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Music Player -->
+    <div class="container">
+
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItem-container">
+                <div class="songItems">
+                    <img src="./covers/" alt="1">
+                    <span class="songName">Blinding Lights</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:34
+                            <i id="0" class="fa-solid fa-1x songItemPlay fa-circle-play"></i>
+                        </span>
+                        
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src="./covers/" alt="1">
+                    <span class="songName">Blinding Lights</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:34
+                            <i id="1" class="fa-solid fa-1x songItemPlay fa-circle-play"></i>
+                        </span>
+                        
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src="./covers/" alt="1">
+                    <span class="songName">Blinding Lights</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:34
+                            <i id="2" class="fa-solid fa-1x songItemPlay fa-circle-play"></i>
+                        </span>
+                        
+                    </span>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i  class="fa-solid fa-2x fa-step-backward" id="prevBtn"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i  class="fa-solid fa-2x fa-step-forward" id="nextBtn"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./playing.gif" width="43px" alt="gif" id="gif">
+            <span class="songInfoName">Blinding Lights - the Weeknd</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/218a9a198c.js" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
